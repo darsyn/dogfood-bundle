@@ -1,0 +1,4 @@
+services:
+#    darsyn_dogfooding.example:
+#        class: Darsyn\Bundle\DogfoodingBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

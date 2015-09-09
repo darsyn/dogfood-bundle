@@ -1,0 +1,14 @@
+{
+    "name": "darsyn/dogfooding-bundle",
+    "description": "Eat your own dogfood!",
+    "type": "bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zander Baldwin",
+            "email": "hello@zanderbaldwin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
