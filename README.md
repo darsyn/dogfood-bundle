@@ -72,7 +72,7 @@ class ProductController extends Controller
         $em->flush();
 
         return $this->render('AcmeBundle:Product:create.html.twig', [
-            'id' => $product->getName(),
+            'name' => $product->getName(),
         ]);
     }
 }
