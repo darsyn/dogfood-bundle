@@ -1,4 +1,15 @@
 services:
-#    darsyn_dogfooding.example:
-#        class: Darsyn\Bundle\DogfoodingBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+
+    darsyn_dogfood.data_strategy.json:
+        class: Darsyn\Bundle\DogfoodBundle\DataStrategy\Json
+
+    darsyn_dogfood.proxy:
+        class: Darsyn\Bundle\DogfoodBundle\Proxy\Proxy
+        arguments:
+            - @http_kernel
+            - @request_stack
+            - @router
+            - @event_dispatcher
+            - @logger
+        calls:
+            - [ setDataStrategy, [ @darsyn_dogfood.data_strategy.json ]]
