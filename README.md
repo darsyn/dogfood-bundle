@@ -100,7 +100,10 @@ class ProductController extends DogfoodController
     public function createAction()
     {
         $apiResponse = $this->dogfood('POST', '/api/product/create');
-        return $this->render('AcmeBundle:Product:create.html.twig', $apiResponse->getData());
+        return $this->render(
+            'AcmeBundle:Product:create.html.twig',
+            $apiResponse->getData()
+        );
     }
 
     /**
