@@ -9,6 +9,20 @@
             "email": "hello@zanderbaldwin.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Darsyn\\Bundle\\DogfoodBundle\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "^2.8|^3.0",
+        "symfony/http-foundation": "^2.8|^3.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darsyn\\BundleTests\\DogfoodBundle\\": "tests/"
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
