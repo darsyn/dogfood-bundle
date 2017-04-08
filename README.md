@@ -5,7 +5,9 @@ Dogfood Bundle
 
 With inspiration from [Alex Bilbie](http://linkey.blogs.lincoln.ac.uk/2013/03/22/api-driven-development-eating-your-own-dog-food/) and [Jani Tarvainen](https://www.symfony.fi/entry/dogfooding-rest-apis), this project is a proof-of-concept written as a [Symfony2](http://symfony.com) bundle.
 
-*Not currently considered stable or appropriate for production.*
+> Not currently considered stable or appropriate for production.
+>
+> This is a *proof of concept **ONLY***.
 
 The State of APIs
 -----------------
